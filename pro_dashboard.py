@@ -72,7 +72,7 @@ if st.session_state.auth is None:
         if user:
             st.session_state.auth = user
             st.sidebar.success(f"Welcome {username} ({user['role']})")
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.sidebar.error("Invalid credentials")
     st.stop()  # require login
@@ -224,3 +224,4 @@ if confirm_execute:
 
 st.markdown("---")
 st.caption("Notes: Use ws_streamer.py and order_monitor.py as background workers. Use Render Cron or a background service. Admin role required for live executes.")
+
