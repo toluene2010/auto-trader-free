@@ -1,6 +1,6 @@
 {
   "admin": {
-    "password": "$2b$12$EXAMPLEHASHSHOULDREPLACE",
+    "password": "$2b$12$4cCIo1a4sfYEEGoPehzKFu0dCV7j6FljNfih2S8aPckpn5gE278f6",
     "role": "Admin"
   },
   "reviewer": {
@@ -8,3 +8,4 @@
     "role": "Reviewer"
   }
 }
+
