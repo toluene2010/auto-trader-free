@@ -50,7 +50,7 @@ if start:
         price = latest.Close
 
         # === Signal Logic ===
-        signal = "HOLD"
+        signal = "HADD"
         if latest.Close < latest.Lower and latest.RSI < 30:
             signal = "BUY"
         elif latest.Close > latest.Upper and latest.RSI > 70:
@@ -88,7 +88,4 @@ if start:
 
     except Exception as e:
         placeholder.error(str(e))
-<<<<<<< HEAD:app.py
         time.sleep(60)
-=======
->>>>>>> 50e0e6c (Updated App.py with environment variable authentication fix):App.py
