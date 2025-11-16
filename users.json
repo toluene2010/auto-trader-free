@@ -1,0 +1,10 @@
+{
+  "admin": {
+    "password": "$2b$12$EXAMPLEHASHSHOULDREPLACE",
+    "role": "Admin"
+  },
+  "reviewer": {
+    "password": "$2b$12$EXAMPLEHASHSHOULDREPLACE",
+    "role": "Reviewer"
+  }
+}

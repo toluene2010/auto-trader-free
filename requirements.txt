@@ -1,4 +1,12 @@
 streamlit
 yfinance
 pandas
+numpy
 alpaca-py
+plotly
+matplotlib
+ta
+redis
+bcrypt
+python-dotenv
+psycopg2-binary
